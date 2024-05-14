@@ -26,7 +26,7 @@ Welcome to the Learning Log!
 
 5. Install dependencies:
    ```bash
-   pip install django
+   pip install django djangorestframework
    ```
 
 ## How to Run
