@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("<h3>Welcome to Learning Log!<h3>")
+    return render(request, 'index.html')
